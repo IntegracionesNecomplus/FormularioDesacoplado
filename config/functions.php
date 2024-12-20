@@ -57,8 +57,14 @@
                 'purchaseNumber' => $purchaseNumber,
                 'tokenId' => $transactionToken
             ),
-
-            
+            'dataMap' => array(
+                'urlAddress' => 'https://desarrolladores.niubiz.com.pe/',
+                'partnerIdCode' => '',
+                'serviceLocationCityName' => 'LIMA',
+                'serviceLocationCountrySubdivisionCode' => 'LIMA',
+                'serviceLocationCountryCode' => 'PER',
+                'serviceLocationPostalCode' => '15074'
+            )
         );
         $json = json_encode($data);
         $session = json_decode(postRequest(VISA_URL_AUTHORIZATION, $json, $token));
