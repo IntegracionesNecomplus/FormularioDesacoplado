@@ -9,36 +9,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Formulario Desacoplado</title>
+  <link rel="shortcut icon" href="assets/img/favicon.png">
   <link rel="stylesheet" href="<?php echo VISA_URL_CSS ?>">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
-  <style>
-    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-      color: #999999 !important;
-      opacity: 1; /* Firefox */
-    }
-
-    :-ms-input-placeholder { /* Internet Explorer 10-11 */
-      color: #999999 !important;
-    }
-
-    ::-ms-input-placeholder { /* Microsoft Edge */
-      color: #999999 !important;
-    }
-  </style>
+  <title>Formulario Desacoplado</title>
 </head>
 
 <body>
-
-  <br>
+  <div class="p-3 mb-2 bg-primary text-white" style="text-align: center;">
+    <h1 style="font-weight: bold;">FORMULARIO DESACOPLADO</h1>
+  </div>
 
   <div class="container">
-    <h1 class="text-center">Formulario Desacoplado</h1>
-    <hr>
-
     <p id="loading">Cargando</p><br>
-
     <div class="row justify-content-md-center">
       <div class="col-md-4">
         <div class="card">
@@ -94,7 +79,6 @@
       </div>
     </div>
   </div>
-
 
   <script src="<?php echo VISA_URL_JS ?>"></script>
 
